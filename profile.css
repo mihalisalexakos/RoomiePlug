@@ -1,0 +1,159 @@
+
+
+
+/* Top Navigation Bar */
+.profile-top-nav {
+
+    display: flex;
+    position: sticky;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 5px 0;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+
+    border-bottom: 1px solid var(--main-element);
+    background: rgba(16, 16, 17, 0.8);
+    backdrop-filter: blur(10px);
+    color: white;
+
+}
+
+#back-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.profile-top-nav h3{
+    padding-right: 30px;
+}
+
+.success-message {
+    position: fixed;
+    bottom: 80px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bright-text);
+    color: var(--background);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.success-message.hidden{
+    display: none;
+}
+
+#confirm-wipe, 
+.danger-button{
+    border: none;
+    background-color: var(--danger);
+    color: var(--danger-bright);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#cancel-wipe{
+    border: none;
+    background-color: var(--selected-button);
+    color: var(--bright-text);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.profile-container {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: end;
+
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+
+
+    height: fit-content;
+}
+
+.profile-pic {
+    align-self: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.profile-info {
+    flex: 1;
+    text-align: end;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 15px;
+    color: var(--bright-text);
+}
+
+.profile-handle {
+    margin: 5px 0;
+    color: var(--muted-text);
+}
+
+.profile-content {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    
+    .profile-top-nav{
+        width: 600px;
+    }
+}

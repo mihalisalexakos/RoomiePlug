@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomieplug</title>
+
+    <link rel="stylesheet" href="styles/groceries.css">
+    <link rel="stylesheet" href="styles/post.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="UIpictures/web-icon.png" type="image/icon type">
+
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+        <div class="title-pfp-container">
+            <h3 id="header-title"></h3>
+            <div class="hub-buttons" id="hub-buttons">
+                <div id="home-hub" class="hub-home" onclick="switchPage('homeHub')">
+                    <!-- <i class="fa-solid fa-users"></i> -->
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div id="profile-button"></div>
+            </div>
+        </div>
+
+
+        <script>
+            // firebase code would go here
+        </script>
+
+        <script src="scripts/app.js" defer></script>
+
+        <div id="back-button"><i class="fa-solid fa-arrow-left"></i></div>
+
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-info">
+                    <h2 class="profile-name"></h2>
+                    <p class="profile-handle"></p>
+                </div>
+                <img src="" alt="Profile Picture" class="profile-pic">
+            </div>
+        </div>
+
+        <div id="split-options" class="split-options-container">
+            <button id="split-option-1" class="split selected" onclick="handleSplitClick(1)"></button>
+            <button id="split-option-2" class="split" onclick="handleSplitClick(2)"></button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Main Content -->
+    <main class="content">
+
+
+    </main>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+
+
+        <div class="moving-background"></div>
+        <a onclick="switchPage(this)" id="index" class="selected"><i
+                class="fa-solid fa-star-of-life selected nav-animate"></i></a>
+        <a onclick="switchPage(this)" id="bills" class=""><i class="fa-solid fa-wallet"></i></a>
+        <a onclick="switchPage(this)" id="post" class=""><i class="fa-solid fa-plus"></i></a>
+        <a onclick="switchPage(this)" id="groceries" class=""><i class="fa-solid fa-basket-shopping"></i></a>
+        <a onclick="switchPage(this)" id="events" class=""><i class="fa-solid fa-martini-glass-citrus"></i></a>
+
+
+    </nav>
+
+    <script src="scripts/client.js"></script>
+    <script src="scripts/rendering.js"></script>
+    <script src="scripts/groceries.js"></script>
+    <script src="scripts/splitOptions.js"></script>
+    <script src="scripts/profile.js"></script>
+    <script src="scripts/posting.js"></script>
+
+</body>
+
+</html>
