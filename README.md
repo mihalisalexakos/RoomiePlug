@@ -1,4 +1,4 @@
-# roomate-socialmedia
+# RoomiePlug
  
 <h1>Communicate more effectively with your roommates. Easily sort out groceries, incoming bills and events</h1>
 <img width="562" alt="Screenshot 2025-05-01 at 23 32 26" src="https://github.com/user-attachments/assets/67a5dc31-ad31-4551-b8c0-c8c5a475ea8d" />
