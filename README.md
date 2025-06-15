@@ -1,6 +1,6 @@
 # RoomiePlug
  
-<h1>Communicate more effectively with your roommates. Easily sort out groceries, incoming bills and events</h1>
+<h2>Communicate more effectively with your roommates. Easily sort out groceries, incoming bills and events</h2>
 <img width="300" alt="Screenshot 2025-05-01 at 23 32 26" src="https://github.com/user-attachments/assets/67a5dc31-ad31-4551-b8c0-c8c5a475ea8d" />
 <p>Features 4 different areas, a home section where all posts are present, a section just for bill related posts, a section for grocery related posts
 and finally, a section reserved for event related posts.
